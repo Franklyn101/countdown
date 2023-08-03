@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Text', sans-serif;
+
+}
+body {
+ 
+  background-image: url(images/bg-stars.svg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-color:   hsl(235, 16%, 14%);
+ 
+}
+
+.parent {
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+
+}
+span {
+    color: hsl(236, 21%, 26%);
+}
+
+.container {
+  text-align: center;
+ 
+  
+}
+
+h1 {
+  font-size: 20px;
+ letter-spacing: 11px;
+  font-family: 'Red Hat Text', sans-serif;
+  margin-top: -80px;
+  padding-bottom: 30px;
+}
+.timer-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+}
+.timer {
+  display: flex;
+  justify-content: center;;
+  gap: 16px;
+  padding-top: 40px;
+}
+
+.card {
+  background-color: hsl(236, 21%, 26%);
+  border-radius: 8px;
+  overflow: hidden;
+  padding-top: 50px;
+  padding-left: 36px;
+  text-align: center;
+  color:  hsl(345, 95%, 68%);
+  font-size: 48px;
+  width: 110px;
+  height: 80px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+
+.card2 {
+  background-color: hsl(236, 21%, 26%);
+  border-radius: 8px;
+  text-align: center;
+  color:  hsl(345, 95%, 68%);
+  font-size: 48px;
+  width: 110px;
+  height: 80px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+ 
+
+} 
+  
+  
+.card3 {
+  background-color: hsl(236, 21%, 26%);
+  border-radius: 8px;
+  text-align: center;
+  color:  hsl(345, 95%, 68%);
+  font-size: 48px;
+  width: 110px;
+  height: 80px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+  
+  }
+  
+.card4 {
+  background-color: hsl(236, 21%, 26%);
+  border-radius: 8px;
+  text-align: center;
+  color:  hsl(345, 95%, 68%);
+  font-size: 48px;
+  width: 110px;
+  height: 80px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+  
+  }
+  
+.card5 {
+  background-color: hsl(236, 21%, 26%);
+  border-radius: 8px;
+  text-align: center;
+  width: 110px;
+  height: 80px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+  
+  }
+.timer-days {
+    position: absolute;
+    color:  hsl(345, 95%, 68%);
+    font-size: 48px;
+    z-index: 9999;
+    margin-right: 5px;
+}
+
+.timer-hours {
+  position: absolute;
+  color:  hsl(345, 95%, 68%);
+  font-size: 48px;
+  z-index: 9999;
+  margin-right: 5px;
+}
+
+
+.timer-minutes {
+  position: absolute;
+  color:  hsl(345, 95%, 68%);
+  font-size: 48px;
+  z-index: 9999;
+  margin-right: 5px;
+}
+
+.timer-seconds {
+  position: absolute;
+  color:  hsl(345, 95%, 68%);
+  font-size: 48px;
+  z-index: 9999;
+  margin-right: 5px;
+}
+.card h2 {
+  margin: 0;
+  font-size: 49px;
+}
+.card2 h2 {
+    margin: 0;
+    font-size: 49px;
+}
+
+.card3 h2 {
+    margin: 0;
+    font-size: 49px;
+  }
+  .card4 h2 {
+    margin: 0;
+    font-size: 49px;
+  }
+  .card5 h2 {
+    margin: 0;
+    font-size: 49px;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding-top: 20px;
+  }
+
+  li {
+    color: hsl(237, 18%, 59%);
+    font-size: 14px;
+  }
+
+.hill {
+    background-image: url(images/pattern-hills.svg);
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    position: absolute;
+    right: 3px;
+    padding-bottom: 90px;
+}
+
+.socials {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+ img:hover {
+  background: hsl(345, 95%, 68%);
+}
+
+@media screen and (max-width: 375px){
+  
+
+  .parent {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  
+h1 {
+  font-size: 17px;
+ letter-spacing: 8px;
+  font-family: 'Red Hat Text', sans-serif;
+  margin-top: -80px;
+  padding-bottom: 30px;
+  width: 340px;
+  text-align: center;
+  margin-left: 50px;
+}
+  
+.hill {
+  background-image: url(images/pattern-hills.svg);
+  width: 100%;
+  height: 150px;
+  background-repeat: no-repeat;
+  margin-top: 60px;
+  position: absolute;
+  margin-top: 120px;
+  left: 1px;
+
+}
+
+.timer {
+  width: 60%;
+  gap: 6px;
+  padding-left: 170px;
+  
+}
+.timer-info {
+  width: 100%;
+  
+}
+.card {
+  width: 70px;
+  height: 40px
+}
+
+.card2 {
+  width: 70px;
+  height: 40px
+}
+.card3 {
+  width: 70px;
+  height: 40px
+}
+.card4 {
+  width: 70px;
+  height: 40px
+}
+.card5 {
+  width: 70px;
+  height: 40px;
+}
+
+.timer-days {
+  font-size: 44px;
+}
+
+.timer-hours {
+  font-size: 44px;
+}
+
+.timer-minutes {
+  font-size: 44px;
+}
+
+.timer-seconds {
+  font-size: 44px;
+}
+
+ul {
+  gap: 28px;
+}
+}
